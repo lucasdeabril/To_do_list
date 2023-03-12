@@ -7,10 +7,18 @@
   }
   
   body {
-    background-image: url("../img/bg.jpg");
+    background-image: url('bg-desktop-light.jpg');
     background-position: center;
-    background-size: cover;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-color: rgb(34, 34, 58);
+    background-position: 0%;
   }
+  /* #imagem-fundo , img{
+    width: 100%;
+    position: absolute;
+    top: 0%;
+  } */
   
   button {
     background-color: #fdfdfd;
